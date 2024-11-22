@@ -11,9 +11,6 @@ terraform {
 provider "aws" {
         region = "us-east-1" 
         #profile = "default"
-         tags = {
-           "name" = "Terrainstance"
-         }  
 	}
 
 resource "aws_instance" "Raminfra" {
